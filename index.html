@@ -1,52 +1,1210 @@
 <!doctype html>
-<html lang="pt-BR"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Solomon Stores | Ofertas selecionadas</title>
-<meta name="description" content="Solomon Stores — ofertas selecionadas, produtos e oportunidades em um só lugar.">
-<meta name="robots" content="index,follow">
-<link rel="canonical" href="https://solomonstores.shop/">
-<meta property="og:title" content="Solomon Stores | Ofertas selecionadas"><meta property="og:description" content="Ofertas selecionadas pela Solomon Stores."><meta property="og:type" content="website"><meta property="og:url" content="https://solomonstores.shop/">
-<link rel="stylesheet" href="assets/css/style.css"><link rel="stylesheet" href="assets/css/responsive.css">
-</head><body>
-<div class="topbar">Ofertas selecionadas e atualizadas diariamente.</div>
-<header class="header">
-  <div class="container header-inner">
-    <a class="logo" href="index.html">SOLOMON <span>STORES</span></a>
-    <div class="search"><input id="globalSearch" type="search" placeholder="Buscar produtos..." aria-label="Buscar produtos"></div>
-    <div class="header-actions"><a class="icon-btn" href="favoritos.html" aria-label="Favoritos">♡ Favoritos</a></div>
-  </div>
-  <nav class="nav"><div class="container nav-inner">
-    <a href="index.html">Início</a><a href="busca.html?q=eletronicos">Eletrônicos</a><a href="busca.html?q=casa">Casa</a><a href="busca.html?q=cozinha">Cozinha</a><a href="busca.html?q=games">Games</a><a href="sobre.html">Sobre</a>
-  </div></nav>
-</header>
+<html lang="pt-BR">
 
-<main>
-<section class="hero"><div class="container"><div class="hero-card">
-<h1>Ofertas que realmente valem a pena.</h1>
-<p>Selecionamos produtos, acompanhamos preços e reunimos boas oportunidades em um só lugar.</p>
-<div class="hero-search"><input id="heroSearch" type="search" placeholder="O que você está procurando?"><button class="btn gold" onclick="location.href='busca.html?q='+encodeURIComponent(document.getElementById('heroSearch').value)">VER OFERTAS</button></div>
-</div></div></section>
+<head>
+    <meta charset="utf-8">
 
-<section class="section"><div class="container"><div class="section-head"><div><h2>🔥 Ofertas de hoje</h2><p>Produtos ativos e recém-atualizados.</p></div><a class="btn ghost" href="busca.html">Ver todas</a></div><div id="deals" class="grid"><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div></div></div></section>
-<section class="section"><div class="container"><div class="section-head"><div><h2>🏷️ Maiores descontos</h2><p>Ordenados pelo percentual de desconto.</p></div></div><div id="discounts" class="grid"></div></div></section>
-<section class="section"><div class="container"><div class="section-head"><div><h2>🆕 Novidades na Solomon Stores</h2></div></div><div id="recent" class="grid"></div></div></section>
-<section class="section"><div class="container"><div class="section-head"><div><h2>Explore por categoria</h2></div></div><div class="categories">
-<a class="category" href="busca.html?q=eletronicos">📱 Eletrônicos</a><a class="category" href="busca.html?q=casa">🏠 Casa</a><a class="category" href="busca.html?q=cozinha">🍳 Cozinha</a><a class="category" href="busca.html?q=informatica">💻 Informática</a><a class="category" href="busca.html?q=games">🎮 Games</a>
-<a class="category" href="busca.html?q=beleza">✨ Beleza</a><a class="category" href="busca.html?q=fitness">🏋️ Fitness</a><a class="category" href="busca.html?q=ferramentas">🛠️ Ferramentas</a><a class="category" href="busca.html?q=automotivo">🚗 Automotivo</a><a class="category" href="busca.html">➕ Outros</a>
-</div></div></section>
-</main>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
-<footer class="footer"><div class="container">
-  <div class="footer-grid">
-    <div><div class="logo">SOLOMON <span>STORES</span></div><p style="color:#d1d5db;max-width:420px">Curadoria de produtos e ofertas. A compra é concluída nas lojas parceiras.</p></div>
-    <div><h4>Solomon Stores</h4><a href="sobre.html">Sobre nós</a><a href="index.html">Como funciona</a></div>
-    <div><h4>Informações</h4><a href="politica-privacidade.html">Privacidade</a><a href="termos.html">Termos de Uso</a></div>
-    <div><h4>Redes sociais</h4><a href="#">TikTok</a><a href="#">Instagram</a><a href="#">Facebook</a><a href="#">YouTube</a></div>
-  </div>
-  <p style="margin-top:30px;color:#9ca3af">Como associado, a Solomon Stores pode receber comissão por compras qualificadas realizadas através dos links disponíveis neste site, sem custo adicional para você.</p>
-  <small>© 2026 Solomon Stores — solomonstores.shop</small>
-</div></footer>
-<button id="backtop" class="backtop" aria-label="Voltar ao topo">↑</button>
+    <title>Solomon Stores | As melhores ofertas em um só lugar</title>
 
-<script src="assets/js/app.js"></script><script src="assets/js/analytics.js"></script><script src="assets/js/produtos.js"></script>
-</body></html>
+    <meta
+        name="description"
+        content="Encontre ofertas selecionadas, acompanhe preços e descubra produtos com grandes descontos na Solomon Stores."
+    >
+
+    <meta name="robots" content="index, follow">
+
+    <meta name="theme-color" content="#111827">
+
+    <link rel="canonical" href="https://solomonstores.shop/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Solomon Stores">
+    <meta property="og:title" content="Solomon Stores | Ofertas que realmente valem a pena">
+    <meta
+        property="og:description"
+        content="Produtos selecionados, preços acompanhados e grandes oportunidades reunidas em um só lugar."
+    >
+    <meta property="og:url" content="https://solomonstores.shop/">
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Solomon Stores | Ofertas selecionadas">
+    <meta
+        name="twitter:description"
+        content="Descubra produtos, descontos e oportunidades selecionadas pela Solomon Stores."
+    >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <!-- Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Solomon Stores",
+        "url": "https://solomonstores.shop/",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://solomonstores.shop/busca.html?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+</head>
+
+<body>
+
+    <!-- =====================================================
+         TOPBAR
+    ====================================================== -->
+
+    <div class="topbar">
+        <div class="container topbar-inner">
+            <span>🔥 Ofertas selecionadas e atualizadas diariamente</span>
+
+            <span class="topbar-secondary">
+                Preços e disponibilidade podem mudar na loja parceira
+            </span>
+        </div>
+    </div>
+
+
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
+
+    <header class="header">
+
+        <div class="container header-inner">
+
+            <a
+                class="logo"
+                href="index.html"
+                aria-label="Solomon Stores - Página inicial"
+            >
+                <span class="logo-main">SOLOMON</span>
+                <span class="logo-highlight">STORES</span>
+            </a>
+
+
+            <div class="search header-search">
+
+                <span class="search-icon" aria-hidden="true">
+                    🔎
+                </span>
+
+                <input
+                    id="globalSearch"
+                    type="search"
+                    placeholder="Buscar produtos, marcas ou categorias..."
+                    aria-label="Buscar produtos"
+                    autocomplete="off"
+                >
+
+            </div>
+
+
+            <div class="header-actions">
+
+                <a
+                    class="icon-btn"
+                    href="favoritos.html"
+                    aria-label="Abrir favoritos"
+                >
+                    ♡
+                    <span>Favoritos</span>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- MENU -->
+
+        <nav
+            class="nav"
+            aria-label="Navegação principal"
+        >
+
+            <div class="container nav-inner">
+
+                <a class="nav-active" href="index.html">
+                    Início
+                </a>
+
+                <a href="busca.html">
+                    🔥 Ofertas
+                </a>
+
+                <a href="busca.html?q=eletronicos">
+                    Eletrônicos
+                </a>
+
+                <a href="busca.html?q=casa">
+                    Casa
+                </a>
+
+                <a href="busca.html?q=cozinha">
+                    Cozinha
+                </a>
+
+                <a href="busca.html?q=informatica">
+                    Informática
+                </a>
+
+                <a href="busca.html?q=games">
+                    Games
+                </a>
+
+                <a href="#categorias">
+                    Categorias
+                </a>
+
+                <a href="sobre.html">
+                    Sobre
+                </a>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <!-- =====================================================
+         MAIN
+    ====================================================== -->
+
+    <main>
+
+
+        <!-- =================================================
+             HERO
+        ================================================== -->
+
+        <section class="hero">
+
+            <div class="container">
+
+                <div class="hero-card hero-premium">
+
+
+                    <!-- ESQUERDA -->
+
+                    <div class="hero-content">
+
+                        <div class="hero-badge">
+                            🔥 OFERTAS SELECIONADAS
+                        </div>
+
+
+                        <h1>
+                            Ofertas que realmente
+                            <span>valem a pena.</span>
+                        </h1>
+
+
+                        <p>
+                            Selecionamos produtos, acompanhamos preços e
+                            reunimos boas oportunidades para você encontrar
+                            ofertas sem perder tempo.
+                        </p>
+
+
+                        <div class="hero-search">
+
+                            <div class="hero-search-field">
+
+                                <span aria-hidden="true">
+                                    🔎
+                                </span>
+
+                                <input
+                                    id="heroSearch"
+                                    type="search"
+                                    placeholder="O que você está procurando?"
+                                    aria-label="Pesquisar ofertas"
+                                >
+
+                            </div>
+
+
+                            <button
+                                class="btn gold hero-search-button"
+                                type="button"
+                                onclick="
+                                    const q = document.getElementById('heroSearch').value.trim();
+                                    location.href = 'busca.html?q=' + encodeURIComponent(q);
+                                "
+                            >
+                                BUSCAR OFERTAS
+                            </button>
+
+                        </div>
+
+
+                        <div class="hero-suggestions">
+
+                            <span>Buscas populares:</span>
+
+                            <a href="busca.html?q=fone">
+                                Fones
+                            </a>
+
+                            <a href="busca.html?q=air fryer">
+                                Air Fryer
+                            </a>
+
+                            <a href="busca.html?q=games">
+                                Games
+                            </a>
+
+                            <a href="busca.html?q=casa">
+                                Casa
+                            </a>
+
+                        </div>
+
+
+                    </div>
+
+
+                    <!-- DIREITA -->
+
+                    <div class="hero-side">
+
+                        <div class="hero-side-card">
+
+                            <div class="hero-side-icon">
+                                📉
+                            </div>
+
+                            <div>
+
+                                <small>
+                                    ACOMPANHAMENTO
+                                </small>
+
+                                <strong>
+                                    Preços atualizados
+                                </strong>
+
+                                <p>
+                                    Acompanhe produtos e veja quando surgirem
+                                    boas oportunidades.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="hero-side-card">
+
+                            <div class="hero-side-icon">
+                                🏆
+                            </div>
+
+                            <div>
+
+                                <small>
+                                    CURADORIA
+                                </small>
+
+                                <strong>
+                                    Melhores ofertas
+                                </strong>
+
+                                <p>
+                                    Nosso sistema organiza produtos para
+                                    destacar as oportunidades mais relevantes.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="hero-side-card">
+
+                            <div class="hero-side-icon">
+                                🛒
+                            </div>
+
+                            <div>
+
+                                <small>
+                                    COMPRA SEGURA
+                                </small>
+
+                                <strong>
+                                    Loja parceira
+                                </strong>
+
+                                <p>
+                                    A compra é concluída diretamente no site
+                                    oficial da loja parceira.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             BENEFÍCIOS
+        ================================================== -->
+
+        <section class="trust-section">
+
+            <div class="container">
+
+                <div class="trust-grid">
+
+
+                    <div class="trust-item">
+
+                        <div class="trust-icon">
+                            ✓
+                        </div>
+
+                        <div>
+                            <strong>Ofertas selecionadas</strong>
+                            <span>Curadoria automatizada</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="trust-item">
+
+                        <div class="trust-icon">
+                            ↻
+                        </div>
+
+                        <div>
+                            <strong>Preços acompanhados</strong>
+                            <span>Informações atualizadas</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="trust-item">
+
+                        <div class="trust-icon">
+                            🔥
+                        </div>
+
+                        <div>
+                            <strong>Grandes descontos</strong>
+                            <span>Oportunidades em destaque</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="trust-item">
+
+                        <div class="trust-icon">
+                            🔒
+                        </div>
+
+                        <div>
+                            <strong>Compra na loja oficial</strong>
+                            <span>Você finaliza diretamente no parceiro</span>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             OFERTAS PRINCIPAIS
+        ================================================== -->
+
+        <section
+            class="section section-featured"
+            id="ofertas"
+        >
+
+            <div class="container">
+
+
+                <div class="section-head">
+
+                    <div>
+
+                        <span class="section-eyebrow">
+                            SELEÇÃO SOLOMON
+                        </span>
+
+                        <h2>
+                            🔥 Melhores ofertas agora
+                        </h2>
+
+                        <p>
+                            Produtos ativos, selecionados e recentemente atualizados.
+                        </p>
+
+                    </div>
+
+
+                    <a
+                        class="btn ghost"
+                        href="busca.html"
+                    >
+                        Ver todas →
+                    </a>
+
+                </div>
+
+
+                <div
+                    id="deals"
+                    class="grid"
+                >
+
+                    <div class="skeleton"></div>
+                    <div class="skeleton"></div>
+                    <div class="skeleton"></div>
+                    <div class="skeleton"></div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             BANNER INTERMEDIÁRIO
+        ================================================== -->
+
+        <section class="promo-strip">
+
+            <div class="container">
+
+                <div class="promo-strip-inner">
+
+                    <div>
+
+                        <span class="promo-small">
+                            SOLOMON STORES
+                        </span>
+
+                        <h2>
+                            Menos tempo procurando.
+                            <br>
+                            Mais tempo aproveitando ofertas.
+                        </h2>
+
+                    </div>
+
+
+                    <a
+                        href="busca.html"
+                        class="btn gold"
+                    >
+                        EXPLORAR PRODUTOS
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             MAIORES DESCONTOS
+        ================================================== -->
+
+        <section class="section">
+
+            <div class="container">
+
+
+                <div class="section-head">
+
+                    <div>
+
+                        <span class="section-eyebrow">
+                            ECONOMIZE MAIS
+                        </span>
+
+                        <h2>
+                            🏷️ Maiores descontos
+                        </h2>
+
+                        <p>
+                            Produtos ordenados pelos maiores percentuais de desconto.
+                        </p>
+
+                    </div>
+
+
+                    <a
+                        href="busca.html"
+                        class="section-link"
+                    >
+                        Explorar ofertas →
+                    </a>
+
+                </div>
+
+
+                <div
+                    id="discounts"
+                    class="grid"
+                ></div>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             CATEGORIAS
+        ================================================== -->
+
+        <section
+            class="section categories-section"
+            id="categorias"
+        >
+
+            <div class="container">
+
+
+                <div class="section-head">
+
+                    <div>
+
+                        <span class="section-eyebrow">
+                            ENCONTRE MAIS RÁPIDO
+                        </span>
+
+                        <h2>
+                            Explore por categoria
+                        </h2>
+
+                        <p>
+                            Escolha uma categoria e descubra novas ofertas.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="categories categories-premium">
+
+
+                    <a
+                        class="category"
+                        href="busca.html?q=eletronicos"
+                    >
+                        <span class="category-icon">
+                            📱
+                        </span>
+
+                        <strong>
+                            Eletrônicos
+                        </strong>
+
+                        <small>
+                            Ver produtos →
+                        </small>
+                    </a>
+
+
+                    <a
+                        class="category"
+                        href="busca.html?q=casa"
+                    >
+                        <span class="category-icon">
+                            🏠
+                        </span>
+
+                        <strong>
+                            Casa
+                        </strong>
+
+                        <small>
+                            Ver produtos →
+                        </small>
+                    </a>
+
+
+                    <a
+                        class="category"
+                        href="busca.html?q=cozinha"
+                    >
+                        <span class="category-icon">
+                            🍳
+                        </span>
+
+                        <strong>
+                            Cozinha
+                        </strong>
+
+                        <small>
+                            Ver produtos →
+                        </small>
+                    </a>
+
+
+                    <a
+                        class="category"
+                        href="busca.html?q=informatica"
+                    >
+                        <span class="category-icon">
+                            💻
+                        </span>
+
+                        <strong>
+                            Informática
+                        </strong>
+
+                        <small>
+                            Ver produtos →
+                        </small>
+                    </a>
+
+
+                    <a
+                        class="category"
+                        href="busca.html?q=games"
+                    >
+                        <span class="category-icon">
+                            🎮
+                        </span>
+
+                        <strong>
+                            Games
+                        </strong>
+
+                        <small>
+                            Ver produtos →
+                        </small>
+                    </a>
+
+
+                    <a
+                        class="category"
+                        href="busca.html?q=beleza"
+                    >
+                        <span class="category-icon">
+                            ✨
+                        </span>
+
+                        <strong>
+                            Beleza
+                        </strong>
+
+                        <small>
+                            Ver produtos →
+                        </small>
+                    </a>
+
+
+                    <a
+                        class="category"
+                        href="busca.html?q=fitness"
+                    >
+                        <span class="category-icon">
+                            🏋️
+                        </span>
+
+                        <strong>
+                            Fitness
+                        </strong>
+
+                        <small>
+                            Ver produtos →
+                        </small>
+                    </a>
+
+
+                    <a
+                        class="category"
+                        href="busca.html?q=ferramentas"
+                    >
+                        <span class="category-icon">
+                            🛠️
+                        </span>
+
+                        <strong>
+                            Ferramentas
+                        </strong>
+
+                        <small>
+                            Ver produtos →
+                        </small>
+                    </a>
+
+
+                    <a
+                        class="category"
+                        href="busca.html?q=automotivo"
+                    >
+                        <span class="category-icon">
+                            🚗
+                        </span>
+
+                        <strong>
+                            Automotivo
+                        </strong>
+
+                        <small>
+                            Ver produtos →
+                        </small>
+                    </a>
+
+
+                    <a
+                        class="category"
+                        href="busca.html"
+                    >
+                        <span class="category-icon">
+                            ＋
+                        </span>
+
+                        <strong>
+                            Todas
+                        </strong>
+
+                        <small>
+                            Explorar →
+                        </small>
+                    </a>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             NOVOS PRODUTOS
+        ================================================== -->
+
+        <section class="section recent-section">
+
+            <div class="container">
+
+
+                <div class="section-head">
+
+                    <div>
+
+                        <span class="section-eyebrow">
+                            ACABARAM DE CHEGAR
+                        </span>
+
+                        <h2>
+                            🆕 Novidades na Solomon Stores
+                        </h2>
+
+                        <p>
+                            Produtos adicionados recentemente ao nosso catálogo.
+                        </p>
+
+                    </div>
+
+
+                    <a
+                        href="busca.html"
+                        class="section-link"
+                    >
+                        Ver catálogo →
+                    </a>
+
+                </div>
+
+
+                <div
+                    id="recent"
+                    class="grid"
+                ></div>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             COMO FUNCIONA
+        ================================================== -->
+
+        <section class="section how-section">
+
+            <div class="container">
+
+
+                <div class="section-head center-section">
+
+                    <div>
+
+                        <span class="section-eyebrow">
+                            SIMPLES E TRANSPARENTE
+                        </span>
+
+                        <h2>
+                            Como funciona a Solomon Stores?
+                        </h2>
+
+                        <p>
+                            Encontrar uma oferta pode ser muito mais simples.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="how-grid">
+
+
+                    <div class="how-card">
+
+                        <span class="how-number">
+                            01
+                        </span>
+
+                        <div class="how-icon">
+                            🔍
+                        </div>
+
+                        <h3>
+                            Encontramos
+                        </h3>
+
+                        <p>
+                            Nosso sistema acompanha produtos e oportunidades
+                            disponíveis nas lojas parceiras.
+                        </p>
+
+                    </div>
+
+
+                    <div class="how-card">
+
+                        <span class="how-number">
+                            02
+                        </span>
+
+                        <div class="how-icon">
+                            📊
+                        </div>
+
+                        <h3>
+                            Analisamos
+                        </h3>
+
+                        <p>
+                            Preço, desconto, histórico e outras informações
+                            ajudam a organizar as oportunidades.
+                        </p>
+
+                    </div>
+
+
+                    <div class="how-card">
+
+                        <span class="how-number">
+                            03
+                        </span>
+
+                        <div class="how-icon">
+                            ⭐
+                        </div>
+
+                        <h3>
+                            Selecionamos
+                        </h3>
+
+                        <p>
+                            As ofertas mais interessantes ganham destaque
+                            dentro da Solomon Stores.
+                        </p>
+
+                    </div>
+
+
+                    <div class="how-card">
+
+                        <span class="how-number">
+                            04
+                        </span>
+
+                        <div class="how-icon">
+                            🛒
+                        </div>
+
+                        <h3>
+                            Você aproveita
+                        </h3>
+
+                        <p>
+                            Ao escolher uma oferta, você é direcionado para
+                            concluir a compra diretamente na loja parceira.
+                        </p>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             AVISO
+        ================================================== -->
+
+        <section class="section">
+
+            <div class="container">
+
+                <div class="affiliate-notice">
+
+                    <div class="affiliate-icon">
+                        ℹ️
+                    </div>
+
+                    <div>
+
+                        <strong>
+                            Transparência Solomon Stores
+                        </strong>
+
+                        <p>
+                            Alguns links disponíveis neste site podem ser links
+                            de afiliados. Quando uma compra qualificada é realizada
+                            através deles, a Solomon Stores pode receber uma comissão,
+                            sem custo adicional para você.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer class="footer">
+
+        <div class="container">
+
+
+            <div class="footer-grid">
+
+
+                <div class="footer-brand">
+
+                    <a
+                        class="logo footer-logo"
+                        href="index.html"
+                    >
+                        SOLOMON
+                        <span>
+                            STORES
+                        </span>
+                    </a>
+
+
+                    <p>
+                        Produtos, oportunidades e ofertas selecionadas
+                        para facilitar sua busca.
+                    </p>
+
+
+                    <div class="footer-domain">
+                        solomonstores.shop
+                    </div>
+
+                </div>
+
+
+                <div>
+
+                    <h4>
+                        Solomon Stores
+                    </h4>
+
+                    <a href="sobre.html">
+                        Sobre nós
+                    </a>
+
+                    <a href="#ofertas">
+                        Ofertas
+                    </a>
+
+                    <a href="#categorias">
+                        Categorias
+                    </a>
+
+                    <a href="#categorias">
+                        Como funciona
+                    </a>
+
+                </div>
+
+
+                <div>
+
+                    <h4>
+                        Informações
+                    </h4>
+
+                    <a href="politica-privacidade.html">
+                        Política de Privacidade
+                    </a>
+
+                    <a href="termos.html">
+                        Termos de Uso
+                    </a>
+
+                    <a href="favoritos.html">
+                        Favoritos
+                    </a>
+
+                </div>
+
+
+                <div>
+
+                    <h4>
+                        Siga a Solomon
+                    </h4>
+
+                    <a href="#">
+                        TikTok
+                    </a>
+
+                    <a href="#">
+                        Instagram
+                    </a>
+
+                    <a href="#">
+                        Facebook
+                    </a>
+
+                    <a href="#">
+                        YouTube
+                    </a>
+
+                </div>
+
+
+            </div>
+
+
+            <div class="footer-divider"></div>
+
+
+            <div class="footer-bottom">
+
+                <small>
+                    © 2026 Solomon Stores. Todos os direitos reservados.
+                </small>
+
+                <small>
+                    Preços e disponibilidade podem mudar sem aviso prévio.
+                    A compra é realizada diretamente na loja parceira.
+                </small>
+
+            </div>
+
+
+        </div>
+
+    </footer>
+
+
+    <!-- =====================================================
+         VOLTAR AO TOPO
+    ====================================================== -->
+
+    <button
+        id="backtop"
+        class="backtop"
+        aria-label="Voltar ao topo"
+        title="Voltar ao topo"
+    >
+        ↑
+    </button>
+
+
+    <!-- =====================================================
+         NOSCRIPT
+    ====================================================== -->
+
+    <noscript>
+
+        <div
+            style="
+                padding:20px;
+                text-align:center;
+                background:#fff3cd;
+                color:#664d03;
+            "
+        >
+            Para utilizar todos os recursos da Solomon Stores,
+            ative o JavaScript no seu navegador.
+        </div>
+
+    </noscript>
+
+
+    <!-- =====================================================
+         JAVASCRIPT
+    ====================================================== -->
+
+    <script src="assets/js/app.js"></script>
+
+    <script src="assets/js/analytics.js"></script>
+
+    <script src="assets/js/produtos.js"></script>
+
+</body>
+
+</html>
