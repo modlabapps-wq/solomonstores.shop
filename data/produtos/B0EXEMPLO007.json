@@ -1,0 +1,48 @@
+{
+  "id": "B0EXEMPLO007",
+  "asin": "B0EXEMPLO007",
+  "slug": "luminaria-led-escritorio",
+  "nome": "Luminária LED de Escritório",
+  "descricao_curta": "Iluminação ajustável para estudo e trabalho.",
+  "descricao": "Produto demonstrativo para testar a estrutura do Solomon Stores.",
+  "categoria": "Casa",
+  "subcategoria": "Iluminação",
+  "marca": "Solomon Demo",
+  "loja": "amazon",
+  "preco": 89.9,
+  "preco_anterior": 139.9,
+  "desconto": 36,
+  "moeda": "BRL",
+  "imagem": "https://picsum.photos/seed/lamp1/900/900",
+  "imagens": [
+    "https://picsum.photos/seed/lamp1/900/900",
+    "https://picsum.photos/seed/lamp2/900/900"
+  ],
+  "link_afiliado": "https://www.amazon.com.br/",
+  "prime": true,
+  "frete_gratis": false,
+  "avaliacao": 4.6,
+  "quantidade_avaliacoes": 404,
+  "ativo": true,
+  "destaque": true,
+  "data_cadastro": "2026-08-12T12:00:00Z",
+  "ultima_atualizacao": "2026-08-18T18:00:00Z",
+  "historico_preco": [
+    {
+      "data": "2026-08-12",
+      "preco": 119.9
+    },
+    {
+      "data": "2026-08-18",
+      "preco": 89.9
+    }
+  ],
+  "caracteristicas": [
+    "LED",
+    "Brilho ajustável",
+    "Temperatura de cor ajustável",
+    "Baixo consumo"
+  ],
+  "status": "SITE_PUBLICADO",
+  "score": 84
+}

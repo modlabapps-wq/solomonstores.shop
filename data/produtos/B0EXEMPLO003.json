@@ -1,0 +1,53 @@
+{
+  "id": "B0EXEMPLO003",
+  "asin": "B0EXEMPLO003",
+  "slug": "air-fryer-digital",
+  "nome": "Air Fryer Digital",
+  "descricao_curta": "Praticidade para preparar receitas com menos óleo.",
+  "descricao": "Produto demonstrativo para testar a estrutura do Solomon Stores.",
+  "categoria": "Cozinha",
+  "subcategoria": "Eletroportáteis",
+  "marca": "Solomon Demo",
+  "loja": "amazon",
+  "preco": 299.9,
+  "preco_anterior": 429.9,
+  "desconto": 30,
+  "moeda": "BRL",
+  "imagem": "https://picsum.photos/seed/fryer1/900/900",
+  "imagens": [
+    "https://picsum.photos/seed/fryer1/900/900",
+    "https://picsum.photos/seed/fryer2/900/900",
+    "https://picsum.photos/seed/fryer3/900/900"
+  ],
+  "link_afiliado": "https://www.amazon.com.br/",
+  "prime": false,
+  "frete_gratis": true,
+  "avaliacao": 4.8,
+  "quantidade_avaliacoes": 2104,
+  "ativo": true,
+  "destaque": false,
+  "data_cadastro": "2026-08-16T12:00:00Z",
+  "ultima_atualizacao": "2026-08-18T18:00:00Z",
+  "historico_preco": [
+    {
+      "data": "2026-08-15",
+      "preco": 349.9
+    },
+    {
+      "data": "2026-08-17",
+      "preco": 319.9
+    },
+    {
+      "data": "2026-08-18",
+      "preco": 299.9
+    }
+  ],
+  "caracteristicas": [
+    "Painel digital",
+    "Cesto removível",
+    "Timer",
+    "Controle de temperatura"
+  ],
+  "status": "SITE_PUBLICADO",
+  "score": 87
+}

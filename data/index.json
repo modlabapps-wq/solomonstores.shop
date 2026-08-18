@@ -1,0 +1,42 @@
+[
+  {
+    "id": "B0EXEMPLO001",
+    "slug": "fone-bluetooth-premium",
+    "categoria": "Eletrônicos"
+  },
+  {
+    "id": "B0EXEMPLO002",
+    "slug": "aspirador-robo-inteligente",
+    "categoria": "Casa"
+  },
+  {
+    "id": "B0EXEMPLO003",
+    "slug": "air-fryer-digital",
+    "categoria": "Cozinha"
+  },
+  {
+    "id": "B0EXEMPLO004",
+    "slug": "controle-gamer-sem-fio",
+    "categoria": "Games"
+  },
+  {
+    "id": "B0EXEMPLO005",
+    "slug": "teclado-mecanico-rgb",
+    "categoria": "Informática"
+  },
+  {
+    "id": "B0EXEMPLO006",
+    "slug": "cafeteira-programavel",
+    "categoria": "Cozinha"
+  },
+  {
+    "id": "B0EXEMPLO007",
+    "slug": "luminaria-led-escritorio",
+    "categoria": "Casa"
+  },
+  {
+    "id": "B0EXEMPLO008",
+    "slug": "mouse-gamer-ultraleve",
+    "categoria": "Games"
+  }
+]

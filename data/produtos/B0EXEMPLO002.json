@@ -1,0 +1,53 @@
+{
+  "id": "B0EXEMPLO002",
+  "asin": "B0EXEMPLO002",
+  "slug": "aspirador-robo-inteligente",
+  "nome": "Aspirador Robô Inteligente",
+  "descricao_curta": "Limpeza automática para diferentes ambientes da casa.",
+  "descricao": "Produto demonstrativo para testar a estrutura do Solomon Stores.",
+  "categoria": "Casa",
+  "subcategoria": "Limpeza",
+  "marca": "Solomon Demo",
+  "loja": "amazon",
+  "preco": 599.9,
+  "preco_anterior": 899.9,
+  "desconto": 33,
+  "moeda": "BRL",
+  "imagem": "https://picsum.photos/seed/robo1/900/900",
+  "imagens": [
+    "https://picsum.photos/seed/robo1/900/900",
+    "https://picsum.photos/seed/robo2/900/900",
+    "https://picsum.photos/seed/robo3/900/900"
+  ],
+  "link_afiliado": "https://www.amazon.com.br/",
+  "prime": true,
+  "frete_gratis": true,
+  "avaliacao": 4.6,
+  "quantidade_avaliacoes": 820,
+  "ativo": true,
+  "destaque": true,
+  "data_cadastro": "2026-08-17T12:00:00Z",
+  "ultima_atualizacao": "2026-08-18T18:00:00Z",
+  "historico_preco": [
+    {
+      "data": "2026-08-15",
+      "preco": 699.9
+    },
+    {
+      "data": "2026-08-17",
+      "preco": 649.9
+    },
+    {
+      "data": "2026-08-18",
+      "preco": 599.9
+    }
+  ],
+  "caracteristicas": [
+    "Limpeza automática",
+    "Sensores inteligentes",
+    "Retorno à base",
+    "Controle remoto"
+  ],
+  "status": "SITE_PUBLICADO",
+  "score": 89
+}

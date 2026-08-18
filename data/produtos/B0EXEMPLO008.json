@@ -1,0 +1,48 @@
+{
+  "id": "B0EXEMPLO008",
+  "asin": "B0EXEMPLO008",
+  "slug": "mouse-gamer-ultraleve",
+  "nome": "Mouse Gamer Ultraleve",
+  "descricao_curta": "Precisão, leveza e resposta rápida para jogos.",
+  "descricao": "Produto demonstrativo para testar a estrutura do Solomon Stores.",
+  "categoria": "Games",
+  "subcategoria": "Acessórios",
+  "marca": "Solomon Demo",
+  "loja": "amazon",
+  "preco": 149.9,
+  "preco_anterior": 229.9,
+  "desconto": 35,
+  "moeda": "BRL",
+  "imagem": "https://picsum.photos/seed/mouse1/900/900",
+  "imagens": [
+    "https://picsum.photos/seed/mouse1/900/900",
+    "https://picsum.photos/seed/mouse2/900/900"
+  ],
+  "link_afiliado": "https://www.amazon.com.br/",
+  "prime": true,
+  "frete_gratis": true,
+  "avaliacao": 4.8,
+  "quantidade_avaliacoes": 1302,
+  "ativo": true,
+  "destaque": true,
+  "data_cadastro": "2026-08-11T12:00:00Z",
+  "ultima_atualizacao": "2026-08-18T18:00:00Z",
+  "historico_preco": [
+    {
+      "data": "2026-08-11",
+      "preco": 199.9
+    },
+    {
+      "data": "2026-08-18",
+      "preco": 149.9
+    }
+  ],
+  "caracteristicas": [
+    "Sensor preciso",
+    "Ultraleve",
+    "RGB",
+    "Botões programáveis"
+  ],
+  "status": "SITE_PUBLICADO",
+  "score": 90
+}

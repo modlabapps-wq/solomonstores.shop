@@ -1,0 +1,48 @@
+{
+  "id": "B0EXEMPLO005",
+  "asin": "B0EXEMPLO005",
+  "slug": "teclado-mecanico-rgb",
+  "nome": "Teclado Mecânico RGB",
+  "descricao_curta": "Teclas mecânicas e iluminação RGB para setup gamer.",
+  "descricao": "Produto demonstrativo para testar a estrutura do Solomon Stores.",
+  "categoria": "Informática",
+  "subcategoria": "Periféricos",
+  "marca": "Solomon Demo",
+  "loja": "amazon",
+  "preco": 219.9,
+  "preco_anterior": 319.9,
+  "desconto": 31,
+  "moeda": "BRL",
+  "imagem": "https://picsum.photos/seed/key1/900/900",
+  "imagens": [
+    "https://picsum.photos/seed/key1/900/900",
+    "https://picsum.photos/seed/key2/900/900"
+  ],
+  "link_afiliado": "https://www.amazon.com.br/",
+  "prime": true,
+  "frete_gratis": true,
+  "avaliacao": 4.7,
+  "quantidade_avaliacoes": 998,
+  "ativo": true,
+  "destaque": true,
+  "data_cadastro": "2026-08-14T12:00:00Z",
+  "ultima_atualizacao": "2026-08-18T18:00:00Z",
+  "historico_preco": [
+    {
+      "data": "2026-08-14",
+      "preco": 279.9
+    },
+    {
+      "data": "2026-08-18",
+      "preco": 219.9
+    }
+  ],
+  "caracteristicas": [
+    "Switch mecânico",
+    "RGB",
+    "Anti-ghosting",
+    "Cabo removível"
+  ],
+  "status": "SITE_PUBLICADO",
+  "score": 86
+}
