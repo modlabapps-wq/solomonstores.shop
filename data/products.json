@@ -1,0 +1,22 @@
+{
+  "brand": "Solomon Stores",
+  "products": [
+    {
+      "id": "autokyro",
+      "name": "Autokyro",
+      "page": "/autokyro/",
+      "platform": "Android",
+      "status": "preparing",
+      "salesEnabled": false,
+      "portalUrl": "",
+      "downloadUrl": "",
+      "supportUrl": "",
+      "plans": [
+        {"id":"start","priceCents":3990,"devices":2,"caktoOfferId":"3d7xuww"},
+        {"id":"pro","priceCents":6990,"devices":5,"caktoOfferId":"ui845vu"},
+        {"id":"business","priceCents":11990,"devices":10,"caktoOfferId":"z4qm98i"}
+      ]
+    }
+  ],
+  "note":"Editorial catalog only. No credentials. Current build intentionally does not enable checkout from this file. Review all production prerequisites before changing CTA markup."
+}

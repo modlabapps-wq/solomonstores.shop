@@ -1,65 +1,52 @@
-# SOLOMON STORES
+# Solomon Stores — Aplicativos próprios
 
-Site estático em HTML5, CSS3, JavaScript puro e JSON, preparado para GitHub Pages e automação via n8n.
+Nova apresentação da Solomon Stores, começando pelo Autokyro. HTML estático, CSS e JavaScript sem dependências externas, preparado para o GitHub Pages existente. O `CNAME` continua `solomonstores.shop`; não é necessário trocar domínio nem migrar hospedagem.
 
-## Como testar localmente
+## Páginas
 
-Não abra apenas o `index.html` com duplo clique, pois `fetch()` pode ser bloqueado pelo navegador em `file://`.
+- `/`: marca e catálogo de aplicativos.
+- `/autokyro/`: apresentação, conversa ilustrativa, recursos, funcionamento, planos e FAQ.
+- `/suporte/`: instalação, ativação e orientações de uso.
+- `/cliente/`: entrada editorial para a futura central autenticada.
+- `/sobre/`: marca e nova fase.
+- `/politica-privacidade.html` e `/termos.html`: informações desta versão institucional.
 
-No terminal, dentro da pasta do projeto, rode:
+As antigas páginas de busca, categoria, favoritos e produto apontam para o catálogo/Autokyro. `sobre.html` aponta para `/sobre/`. O catálogo de afiliados, scripts e estilos antigos foram removidos; o histórico Git preserva a versão anterior.
 
-```bash
+## Estado comercial
+
+As vendas **não estão abertas**. Os planos Start R$ 39,90/2 celulares, Pro R$ 69,90/5 e Business R$ 119,90/10 são apresentados com botões desabilitados. A Cakto tem as três ofertas desabilitadas. Não há links de cobrança, download comercial, formulário de coleta ou login fictício neste site.
+
+O portal autenticado de Autokyro Cloud é um projeto separado, no diretório irmão `portal` da entrega do Autokyro. O GitHub Pages não executa seu backend. Quando Cloudflare/Resend e o APK comercial estiverem configurados, substituir o botão de acesso do cliente pelo endereço HTTPS real da central. Nunca copiar senhas ou secrets para este repositório público.
+
+As conversas e regras são identificadas como exemplos ilustrativos. Não são screenshots do aplicativo, depoimentos ou resultados reais de clientes. Não foram inventados usuários, avaliações, estatísticas ou produtos disponíveis.
+
+## Editar e verificar
+
+Os textos e a estrutura das páginas são gerados por `build_site.py`; os estilos estão em `assets/css/store.css`, as interações em `assets/js/store.js`.
+
+```powershell
+python build_site.py
+python validate_site.py
+node --check assets/js/store.js
 python -m http.server 8080
 ```
 
-Depois acesse:
+Abrir `http://localhost:8080`. Não usar duplo clique em HTML: as rotas são absolutas para o domínio raiz. A validação verifica páginas, links e âncoras internos, sitemap, dados estruturados, domínio e bloqueio de vendas.
 
-```text
-http://localhost:8080
-```
+`data/products.json` registra o catálogo editorial e os IDs públicos das ofertas. Alterar esse JSON não habilita cobrança automaticamente: revisar a central e os requisitos comerciais antes de modificar os botões.
 
-## Como publicar no GitHub Pages
+## Antes de abrir vendas
 
-1. Crie um repositório no GitHub.
-2. Envie todos os arquivos desta pasta para a raiz do repositório.
-3. Ative o GitHub Pages para a branch principal.
-4. Configure o domínio `solomonstores.shop`.
-5. Ajuste os registros DNS conforme o GitHub indicar.
+1. Publicar e homologar a central Cloudflare e a entrega por e-mail.
+2. Configurar suporte e identificação real do responsável pelas vendas.
+3. Publicar condições completas de contratação, privacidade, cancelamento e reembolso do aplicativo.
+4. Gerar e hospedar o APK assinado com a chave original, configurado com a API real.
+5. Conectar a área do cliente e verificar a entrega sem efetuar cobranças não autorizadas.
+6. Só então habilitar os planos na Cakto e trocar os botões por seus checkouts oficiais.
 
-## Como adicionar um produto
+Não usar os APKs de conferência ou a página editorial `/cliente/` como se a entrega comercial já estivesse pronta.
 
-1. Crie um arquivo:
-   `data/produtos/ASIN.json`
-2. Adicione uma referência em:
-   `data/index.json`
+## Publicação
 
-Não é necessário editar o HTML.
-
-## Automação futura com n8n
-
-O n8n poderá:
-- criar JSON individual de produto;
-- atualizar preço;
-- alterar disponibilidade;
-- atualizar histórico;
-- alterar score;
-- atualizar status;
-- adicionar item ao index.json.
-
-## Campos preparados
-
-`status`:
-- NOVO
-- SITE_PUBLICADO
-- VIDEO_PENDENTE
-- VIDEO_PRONTO
-- PUBLICADO
-- EXPIRADO
-
-`score`: nota futura calculada pelo n8n.
-
-## Importante
-
-Os 8 produtos incluídos são apenas dados demonstrativos. Substitua URLs, imagens, preços e links por dados reais obtidos de fontes permitidas.
-
-O link de afiliado de demonstração aponta apenas para a página inicial da Amazon.
+Enviar os arquivos deste repositório ao mesmo GitHub Pages. Preservar `CNAME` e `.nojekyll`. Se o Pages já está configurado para a branch principal, o envio das alterações a ela atualiza o site. Revisar o menu no celular, as páginas e a acessibilidade visual antes de publicar: a navegação automatizada local não foi autorizada pelo navegador nesta sessão.
