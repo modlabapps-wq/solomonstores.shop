@@ -6,6 +6,8 @@ Nova apresentação da Solomon Stores, começando pelo Autokyro. HTML estático,
 
 - `/`: marca e catálogo de aplicativos.
 - `/autokyro/`: apresentação, conversa ilustrativa, recursos, funcionamento, planos e FAQ.
+- `/nexoficio/`: gestão de clientes, serviços, orçamentos e agenda.
+- `/pdf-scanner/`: apresentação do PDF Scanner · SMT Scan.
 - `/suporte/`: instalação, ativação e orientações de uso.
 - `/cliente/`: entrada editorial para a futura central autenticada.
 - `/sobre/`: marca e nova fase.
@@ -50,3 +52,8 @@ Não usar os APKs de conferência ou a página editorial `/cliente/` como se a e
 ## Publicação
 
 Enviar os arquivos deste repositório ao mesmo GitHub Pages. Preservar `CNAME` e `.nojekyll`. Se o Pages já está configurado para a branch principal, o envio das alterações a ela atualiza o site. Revisar o menu no celular, as páginas e a acessibilidade visual antes de publicar: a navegação automatizada local não foi autorizada pelo navegador nesta sessão.
+
+
+## Catálogo ampliado
+
+NexOfício e PDF Scanner · SMT Scan têm páginas geradas por `catalog_pages.py`, com recursos e preços baseados nos projetos locais. Ambos permanecem em preparação, sem checkout, download ou teste disponível neste site.

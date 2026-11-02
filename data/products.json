@@ -12,11 +12,72 @@
       "downloadUrl": "",
       "supportUrl": "",
       "plans": [
-        {"id":"start","priceCents":3990,"devices":2,"caktoOfferId":"3d7xuww"},
-        {"id":"pro","priceCents":6990,"devices":5,"caktoOfferId":"ui845vu"},
-        {"id":"business","priceCents":11990,"devices":10,"caktoOfferId":"z4qm98i"}
+        {
+          "id": "start",
+          "priceCents": 3990,
+          "devices": 2,
+          "caktoOfferId": "3d7xuww"
+        },
+        {
+          "id": "pro",
+          "priceCents": 6990,
+          "devices": 5,
+          "caktoOfferId": "ui845vu"
+        },
+        {
+          "id": "business",
+          "priceCents": 11990,
+          "devices": 10,
+          "caktoOfferId": "z4qm98i"
+        }
+      ]
+    },
+    {
+      "id": "nexoficio",
+      "name": "NexOfício",
+      "page": "/nexoficio/",
+      "platform": "Android",
+      "status": "preparing",
+      "salesEnabled": false,
+      "portalUrl": "",
+      "downloadUrl": "",
+      "supportUrl": "",
+      "plans": [
+        {
+          "id": "monthly",
+          "priceCents": 1990,
+          "periodDays": 30
+        },
+        {
+          "id": "annual",
+          "priceCents": 14990,
+          "periodDays": 365
+        }
+      ]
+    },
+    {
+      "id": "pdf-scanner",
+      "name": "PDF Scanner · SMT Scan",
+      "page": "/pdf-scanner/",
+      "platform": "Android",
+      "status": "preparing",
+      "salesEnabled": false,
+      "portalUrl": "",
+      "downloadUrl": "",
+      "supportUrl": "",
+      "plans": [
+        {
+          "id": "monthly",
+          "priceCents": 1290,
+          "periodDays": 30
+        },
+        {
+          "id": "annual",
+          "priceCents": 7990,
+          "periodDays": 365
+        }
       ]
     }
   ],
-  "note":"Editorial catalog only. No credentials. Current build intentionally does not enable checkout from this file. Review all production prerequisites before changing CTA markup."
+  "note": "Editorial catalog only. No credentials. Current build intentionally does not enable checkout from this file. Review all production prerequisites before changing CTA markup."
 }
