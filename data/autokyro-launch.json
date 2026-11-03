@@ -1,5 +1,5 @@
 {
-  "salesEnabled": false,
+  "salesEnabled": true,
   "plans": [
     {
       "id": "start",
