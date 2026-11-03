@@ -49,7 +49,12 @@ for path,doc in docs.items():
 assert (ROOT/'CNAME').read_text().strip()=='solomonstores.shop','Domain changed'
 ET.parse(ROOT/'sitemap.xml')
 assert len(list((ROOT/'autokyro').glob('index.html')))==1
-assert 'disabled>Em breve' in (ROOT/'autokyro/index.html').read_text(encoding='utf8'),'Sales must remain unavailable before launch'
+launch=json.loads((ROOT/'data/autokyro-launch.json').read_text(encoding='utf8'))
+html=(ROOT/'autokyro/index.html').read_text(encoding='utf8')
+assert len(launch['plans'])==9
+if launch['salesEnabled']:
+    for plan in launch['plans']:assert ('https://pay.cakto.com.br/'+plan['offerId']) in html
+else:assert 'disabled>Compras em preparação' in html,'Sales must remain unavailable before launch'
 assert not any('/node_modules/' in str(p) for p in docs)
 if errors:raise SystemExit('\n'.join(errors))
-print(f'Validated {len(docs)} HTML pages and {refs} local references. CNAME preserved; sales disabled; sitemap and structured data valid.')
+print(f'Validated {len(docs)} HTML pages and {refs} local references. CNAME preserved; launch state checked; sitemap and structured data valid.')

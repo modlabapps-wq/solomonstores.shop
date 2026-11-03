@@ -1,0 +1,77 @@
+{
+  "salesEnabled": false,
+  "plans": [
+    {
+      "id": "start",
+      "name": "Start Mensal",
+      "priceCents": 3990,
+      "maxDevices": 2,
+      "periodDays": 30,
+      "offerId": "3d7xuww"
+    },
+    {
+      "id": "pro",
+      "name": "Pro Mensal",
+      "priceCents": 6990,
+      "maxDevices": 5,
+      "periodDays": 30,
+      "offerId": "ui845vu"
+    },
+    {
+      "id": "business",
+      "name": "Business Mensal",
+      "priceCents": 11990,
+      "maxDevices": 10,
+      "periodDays": 30,
+      "offerId": "z4qm98i"
+    },
+    {
+      "id": "start_quarterly",
+      "name": "Start Trimestral",
+      "priceCents": 10770,
+      "maxDevices": 3,
+      "periodDays": 90,
+      "offerId": "y8ebthz"
+    },
+    {
+      "id": "pro_quarterly",
+      "name": "Pro Trimestral",
+      "priceCents": 18870,
+      "maxDevices": 7,
+      "periodDays": 90,
+      "offerId": "ph26uik"
+    },
+    {
+      "id": "business_quarterly",
+      "name": "Business Trimestral",
+      "priceCents": 32370,
+      "maxDevices": 15,
+      "periodDays": 90,
+      "offerId": "3537yns"
+    },
+    {
+      "id": "start_annual",
+      "name": "Start Anual",
+      "priceCents": 39990,
+      "maxDevices": 5,
+      "periodDays": 365,
+      "offerId": "3cwubzy"
+    },
+    {
+      "id": "pro_annual",
+      "name": "Pro Anual",
+      "priceCents": 69990,
+      "maxDevices": 10,
+      "periodDays": 365,
+      "offerId": "th4x3zg"
+    },
+    {
+      "id": "business_annual",
+      "name": "Business Anual",
+      "priceCents": 119990,
+      "maxDevices": 20,
+      "periodDays": 365,
+      "offerId": "3et9du6"
+    }
+  ]
+}

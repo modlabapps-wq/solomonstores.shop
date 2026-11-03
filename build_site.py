@@ -52,3 +52,6 @@ write('.nojekyll','')
 write('assets/img/solomon-mark.svg','<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><rect width="48" height="48" rx="12" fill="#252b24"/><path d="m12 15 12-7 12 7-12 7-12-7Zm0 10 12 7 12-7M12 35l12 7 12-7" stroke="#ddf790" stroke-width="3" fill="none" stroke-linejoin="round"/></svg>')
 write('assets/img/social-card.svg','<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630"><rect width="1200" height="630" fill="#f5f5ee"/><circle cx="1060" cy="350" r="280" fill="#ddf790"/><text x="80" y="130" font-family="Arial,sans-serif" font-size="40" fill="#252b24">solomon stores</text><text x="80" y="290" font-family="Arial,sans-serif" font-weight="bold" font-size="77" fill="#252b24">Boas ferramentas.</text><text x="80" y="390" font-family="Arial,sans-serif" font-size="77" fill="#252b24">Mais possibilidades.</text><text x="80" y="530" font-family="Arial,sans-serif" font-size="26" fill="#606956">Autokyro · NexOfício · PDF Scanner · solomonstores.shop</text></svg>')
 print('Generated',len(list(ROOT.rglob('*.html'))),'HTML pages')
+
+from launch_catalog import write_launch_pages
+write_launch_pages(page,ROOT)
