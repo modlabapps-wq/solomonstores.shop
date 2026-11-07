@@ -1,0 +1,20 @@
+name: AutoKyro Cloud checks
+on:
+  push:
+    branches: [main]
+    paths: ['cloudflare/**', '.github/workflows/autokyro-cloud.yml']
+  pull_request:
+    paths: ['cloudflare/**', '.github/workflows/autokyro-cloud.yml']
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: node cloudflare/tests/check-worker.mjs
+      - run: node cloudflare/tests/check-email-login.mjs
+      - run: node cloudflare/tests/check-trials.mjs
