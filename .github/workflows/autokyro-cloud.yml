@@ -1,4 +1,4 @@
-name: AutoKyro Cloud checks
+name: Automatize Fácil Cloud checks
 on:
   push:
     branches: [main]
@@ -18,3 +18,5 @@ jobs:
       - run: node cloudflare/tests/check-worker.mjs
       - run: node cloudflare/tests/check-email-login.mjs
       - run: node cloudflare/tests/check-trials.mjs
+      - run: node cloudflare/tests/check-release-mail.mjs
+      - run: node cloudflare/tests/check-release-download.mjs
