@@ -54,7 +54,7 @@ html=(ROOT/'automatize-facil/index.html').read_text(encoding='utf8')
 assert len(launch['plans'])==3
 assert [(p['priceCents'],p['maxDevices'],p['periodDays']) for p in launch['plans']]==[(2990,1,30),(7990,1,90),(23990,1,365)]
 if launch['salesEnabled']:
-    for plan in launch['plans']:assert ('https://pay.cakto.com.br/'+plan['offerId']) in html
+    for plan in launch['plans']:assert plan.get('checkoutUrl', 'https://pay.cakto.com.br/'+plan['offerId']) in html
 else:assert 'disabled>Compras em preparação' in html,'Sales must remain unavailable before launch'
 assert not any('/node_modules/' in str(p) for p in docs)
 if errors:raise SystemExit('\n'.join(errors))

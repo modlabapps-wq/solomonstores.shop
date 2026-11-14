@@ -14,8 +14,9 @@
           "name": "Automatize Fácil Mensal",
           "priceCents": 2990,
           "periodDays": 30,
-          "offerId": "8hsnajf",
-          "maxDevices": 1
+          "offerId": "3d7xuww",
+          "maxDevices": 1,
+          "checkoutUrl": "https://pay.cakto.com.br/3d7xuww_1273485"
         },
         {
           "id": "quarterly",
@@ -23,7 +24,8 @@
           "priceCents": 7990,
           "periodDays": 90,
           "offerId": "7y8ahpe",
-          "maxDevices": 1
+          "maxDevices": 1,
+          "checkoutUrl": "https://pay.cakto.com.br/7y8ahpe"
         },
         {
           "id": "annual",
@@ -31,7 +33,8 @@
           "priceCents": 23990,
           "periodDays": 365,
           "offerId": "atmu2y4",
-          "maxDevices": 1
+          "maxDevices": 1,
+          "checkoutUrl": "https://pay.cakto.com.br/atmu2y4"
         }
       ]
     }
