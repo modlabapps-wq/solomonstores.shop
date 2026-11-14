@@ -38,3 +38,5 @@ A central distribui o APK assinado de versão interna 10 pela rota protegida `/d
 A migração 006 apenas registra a versão e já foi aplicada em produção. O APK foi instalado em um Android 14 real, com 25 verificações instrumentadas e revisão de navegação de 11 telas. Isso não substitui o teste real de resposta do WhatsApp e de pagamento.
 
 Os e-mails transacionais são gerados diretamente pelo Worker, não pelo template do painel Resend. Remetente, assuntos e conteúdo usam Automatize Fácil.
+
+Em 14/11/2026, o botão da central passou a mostrar a versão extraída da URL do APK. A migração 007 atualiza somente os nomes dos três planos oficiais, com cópia recuperável em autokyro_plan_names_backup_20261114; já aplicada em produção. IDs, valores, recorrência e licenças permanecem preservados.
