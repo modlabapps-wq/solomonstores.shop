@@ -21,7 +21,7 @@ function heading(){const [title,description]=titles[state.view];let action='';if
  if(state.view==='customers')action='<button data-action="new-customer">+ Cadastrar cliente</button>';
  if(state.view==='licenses')action='<button data-action="new-license">+ Gerar licença</button>';
  if(state.view==='plans')action='<button data-action="new-plan">+ Cadastrar plano</button>';
- }return `<div class="eyebrow">AUTOKYRO CLOUD</div><div class="heading"><div><h1>${title}</h1><p>${description}</p></div><div class="heading-actions"><button class="secondary" data-action="refresh">Atualizar</button>${action}</div></div>`;}
+ }return `<div class="eyebrow">AUTOMATIZE FÁCIL</div><div class="heading"><div><h1>${title}</h1><p>${description}</p></div><div class="heading-actions"><button class="secondary" data-action="refresh">Atualizar</button>${action}</div></div>`;}
 function empty(label='Nenhum registro encontrado.'){return `<div class="empty">${icon('plans')}${esc(label)}</div>`;}
 function table(headers,rows){if(!rows.length)return empty();return `<div class="table-wrap"><table><thead><tr>${headers.map(h=>`<th>${h}</th>`).join('')}</tr></thead><tbody>${rows.map(r=>`<tr>${r.map(c=>`<td>${c}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;}
 function metric(label,value,note,ico){return `<article class="metric"><div class="metric-head">${label}<span class="metric-icon">${icon(ico)}</span></div><strong>${esc(value)}</strong><small>${esc(note)}</small></article>`;}
