@@ -50,7 +50,7 @@ assert (ROOT/'CNAME').read_text().strip()=='solomonstores.shop','Domain changed'
 ET.parse(ROOT/'sitemap.xml')
 assert len(list((ROOT/'autokyro').glob('index.html')))==1
 launch=json.loads((ROOT/'data/autokyro-launch.json').read_text(encoding='utf8'))
-html=(ROOT/'autokyro/index.html').read_text(encoding='utf8')
+html=(ROOT/'automatize-facil/index.html').read_text(encoding='utf8')
 assert len(launch['plans'])==3
 assert [(p['priceCents'],p['maxDevices'],p['periodDays']) for p in launch['plans']]==[(2990,1,30),(7990,1,90),(23990,1,365)]
 if launch['salesEnabled']:

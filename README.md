@@ -1,7 +1,9 @@
-# AutoKyro
+# Automatize Fácil
 
-Static site for AutoKyro. Edit reviewed HTML directly; legacy catalog generators are retired.
+Site oficial da Solomon Stores para o aplicativo Android de respostas automáticas para WhatsApp. Identidade azul e logotipo aprovados pelo proprietário.
 
-Official recurring plans for one Android phone: R$ 29,90 / 30 days, R$ 79,90 / 90 days, R$ 239,90 / 365 days. Totals include R$ 0,99 fee. Checkout IDs: 8hsnajf, 7y8ahpe, atmu2y4.
+Edite as páginas HTML revisadas diretamente. Geradores antigos estão aposentados. A rota /autokyro/ encaminha para /automatize-facil/.
 
-Run validate_site.py before publishing. Android download remains version 1.1.1 until a replacement is built and tested.
+Planos recorrentes para 1 celular: R$ 29,90 / 30 dias, R$ 79,90 / 90 dias e R$ 239,90 / 365 dias, incluindo taxa de R$ 0,99. Ofertas preservadas: 8hsnajf, 7y8ahpe e atmu2y4.
+
+Execute python validate_site.py antes de publicar. O APK usa distribuição protegida pela central; não inclua APK, credenciais nem chaves de assinatura neste repositório público.

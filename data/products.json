@@ -3,15 +3,15 @@
   "products": [
     {
       "id": "autokyro",
-      "name": "AutoKyro",
-      "page": "/autokyro/",
+      "name": "Automatize Fácil",
+      "page": "/automatize-facil/",
       "platform": "Android",
       "status": "available",
       "salesEnabled": true,
       "plans": [
         {
           "id": "monthly",
-          "name": "AutoKyro Mensal",
+          "name": "Automatize Fácil Mensal",
           "priceCents": 2990,
           "periodDays": 30,
           "offerId": "8hsnajf",
@@ -19,7 +19,7 @@
         },
         {
           "id": "quarterly",
-          "name": "AutoKyro Trimestral",
+          "name": "Automatize Fácil Trimestral",
           "priceCents": 7990,
           "periodDays": 90,
           "offerId": "7y8ahpe",
@@ -27,7 +27,7 @@
         },
         {
           "id": "annual",
-          "name": "AutoKyro Anual",
+          "name": "Automatize Fácil Anual",
           "priceCents": 23990,
           "periodDays": 365,
           "offerId": "atmu2y4",
